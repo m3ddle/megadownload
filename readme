@@ -1,0 +1,52 @@
+Megadownload
+=============
+
+This is a simple script which will allow you to automatically download in succsession, one or more links to files stored on mega.co.nz.
+
+The script scans your clipboard for mega.co urls and downloads them one by one using megatools 'megadl' command.
+
+Getting Started
+=============
+Megatools is required to carry out the downloads.
+More information and source code for Megatools is available at their website below.
+Many distros have megatools available for convenient download and setup through their package manager.
+
+https://megatools.megous.com/
+
+To download files simply copy some links and run the bash script. If installed properly 
+this should be as simple as:
+
+	$ megadownload
+
+The downloads will begin immediately. Megatools will track their progress in the terminal.
+
+
+Installation
+=============
+
+Run the convenient installation script.
+
+You may have to give execution permission to the files 'megadownload' or 'megadownloader.py'.
+
+You may also have to give execution permission to the installation script.
+
+This is easily accomplished with the following shell command:
+	
+	$ chmod +x <filename>
+
+If your distro uses sudo:
+
+	$ sudo chmod +x <filename>
+
+Miscellaneous
+=============
+
+The idea for this came from the windows program megadownloader.
+
+Ideas for the future include:
+	Windows support. 
+	Support for adding links from a file.
+	A gui.
+	Arguments to specify a different download directory.
+
+
