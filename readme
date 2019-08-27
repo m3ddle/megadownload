@@ -20,6 +20,11 @@ this should be as simple as:
 
 The downloads will begin immediately. Megatools will track their progress in the terminal.
 
+To specify a directory different than the one you are in for your downloads give the new directory as an argument. Example:
+
+	$ megadownload ~/Downloads
+
+Will download to ~/Downloads
 
 Installation
 =============
@@ -47,6 +52,7 @@ Ideas for the future include:
 	Windows support. 
 	Support for adding links from a file.
 	A gui.
-	Arguments to specify a different download directory.
 
-
+Changelog
+============
+Added arguments to specify a different download directory.
